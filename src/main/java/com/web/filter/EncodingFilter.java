@@ -10,10 +10,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpFilter;
 
-/**
- * Servlet Filter implementation class EncodingFilter
- */
-@WebFilter(urlPatterns = "*")
+@WebFilter(urlPatterns = "/*")
 public class EncodingFilter extends HttpFilter implements Filter {
 	private static final long serialVersionUID = 1L;
 

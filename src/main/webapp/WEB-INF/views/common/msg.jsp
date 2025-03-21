@@ -27,7 +27,7 @@ body{
             </div>
             <div class="modal-footer">
                <button type="button" class="btn btn-primary btn-sm"
-                  onclick="location.href='/'">확인</button>
+                  onclick="location.href='${empty url? "/":url}'">확인</button>
             </div>
          </div>
       </div>
